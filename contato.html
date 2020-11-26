@@ -1,16 +1,19 @@
 <!DOCTYPE html>
 <html lang="pt-br">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Contato da Vivi</title>
     <link rel="stylesheet" href="assets/css/style.css">
 </head>
+
 <body>
 
     <ul id="menu">
         <li>
-            <a href="index.html">Home</a> <!--se colocar em target blank abre outra página-->
+            <a href="index.html">Home</a>
+            <!--se colocar em target blank abre outra página-->
         </li>
         <li>
             <a href="contato.html">Contato</a>
@@ -22,13 +25,13 @@
     <div class="container mb-50">
 
         <div>
-           
+
             <form>
                 <label for="">Nome:</label> <br>
                 <input type="text" id="nome" onkeyup='validaNome()'>
                 <div id='txtNome'></div>
                 <br>
-              
+
                 <label for="email">E-mail:</label> <br>
                 <input type="email" id="email" onkeyup="validaEmail()">
                 <div id='txtEmail'></div>
@@ -46,31 +49,36 @@
 
         <div class="ml-50">
             <h2>Endereço:</h2>
-        
+
             <p>Rua Lira Cearense - Campo Limpo</p>
             <p>São Paulo - SP</p>
-    
-            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3435.9428052641465!2d-46.76049528518681!3d-23.64542458464119!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x94ce53e8bad6161d%3A0x9a1c4d19ec74a5ff!2sR.%20Nossa%20Sra.%20do%20Bom%20Conselho%20-%20Chacara%20Nossa%20Sra.%20do%20Bom%20Conselho%2C%20S%C3%A3o%20Paulo%20-%20SP!5e1!3m2!1spt-BR!2sbr!4v1606237993112!5m2!1spt-BR!2sbr" width="400" height="250" frameborder="0" style="border:0;" allowfullscreen="" aria-hidden="false" tabindex="0" onmousemove="mapaZoom()" onmouseout="mapaNormal()" id="mapa"></iframe>        </div>
-        </div>
 
-        
+            <iframe
+                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3435.9428052641465!2d-46.76049528518681!3d-23.64542458464119!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x94ce53e8bad6161d%3A0x9a1c4d19ec74a5ff!2sR.%20Nossa%20Sra.%20do%20Bom%20Conselho%20-%20Chacara%20Nossa%20Sra.%20do%20Bom%20Conselho%2C%20S%C3%A3o%20Paulo%20-%20SP!5e1!3m2!1spt-BR!2sbr!4v1606237993112!5m2!1spt-BR!2sbr"
+                width="400" height="250" frameborder="0" style="border:0;" allowfullscreen="" aria-hidden="false"
+                tabindex="0" onmousemove="mapaZoom()" onmouseout="mapaNormal()" id="mapa"></iframe>
+        </div>
+    </div>
+
+<footer>
     <div class="container">
         <a href="https://www.linkedin.com/in/vivian-nakano-7a4a9b168/" target="_blanket">
-        <img class="tm-social p-30" src="assets/img/linkedin.png" alt="Logo do LinkedIn">
-    </a>
+            <img class="tm-social p-30" src="assets/img/linkedin.png" alt="Logo do LinkedIn">
+        </a>
         <a href="https://github.com/vivian-nakano" target="_blanket">
-        <img class="tm-social p-30" src="assets/img/github.png" alt="Logo do GitHub">
-    </a>
+            <img class="tm-social p-30" src="assets/img/github.png" alt="Logo do GitHub">
+        </a>
         <a href="https://www.instagram.com/vivinakano/" target="_blanket"></a>
         <img class="tm-social p-30" src="assets/img/instagram.png" alt="Logo do Instagram">
     </div>
-    
-        <p class="center">
-    Todos os direitos reservados para Vivian Nakano &copy; </p>
-    
+
+    <p class="center">
+        Todos os direitos reservados para Vivian Nakano &copy; </p>
+
     </footer>
 
     <script src="assets/js/script.js"></script>
 
-    </body>
+</body>
+
 </html>
